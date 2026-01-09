@@ -41,6 +41,14 @@ Dir.glob("#{source_dir}/**/*").each do |entry|
   end
 end
 
+# Copy additional root files
+extra_files = ['.nojekyll', 'CNAME']
+extra_files.each do |file|
+  if File.exist?(file)
+    FileUtils.cp(file, File.join(destination_dir, file))
+  end
+end
+
 
 template_file = "#{destination_dir}/index.html"
 if !File.exist?(template_file)
