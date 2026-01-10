@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <script>
+      // Map of short paths → destination URLs
+      const redirects = {
+        "/quartersheet": "https://rvaliberation.com/support",
+        "/support": "https://checkout.square.site/merchant/ML91HRXHT076M/checkout/AOR543VJN6G7HBHP2DW2K35B"
+      };
+
+      // Normalize path (strip trailing slash)
+      const path = window.location.pathname.replace(/\/+$/, "") || "/";
+
+      if (redirects[path]) {
+        window.location.replace(redirects[path]);
+      } else {
+        // Fallback: show a normal 404 message
+        document.body.innerHTML = `
+          <h1>404 – Not found</h1>
+          <p>No shortlink defined for <code>${path}</code>.</p>
+        `;
+      }
+    </script>
+  </body>
+</html>
