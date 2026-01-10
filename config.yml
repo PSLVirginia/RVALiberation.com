@@ -33,25 +33,17 @@ plugins:
           es: "@richmonddefensa"
           zh: "@richmonddefensa"
         Tagline:
-          en: "The Richmond Liberation Center is a home for political organizing to achieve social and economic justice in the city that we all call home. We work so that between every large movement, dedicated activists are able to sustain the fight for a better world. Find us at 📍 409 Brook Rd, Richmond, VA"
-          es: "INSERTHERE"
-          zh: "INSERTHERE"
+          en: "The Richmond Liberation Center is a home for political organizing to achieve social and economic justice in the city that we all call home. We work so that between every large movement, dedicated activists are able to sustain the fight for a better world."
+          es: "El Richmond Liberation Center es un centro de organización política para lograr la justicia social y económica en la ciudad que todos llamamos nuestro hogar. Trabajamos para que, entre cada gran movimiento, los activistas comprometidos puedan mantener la lucha por un mundo mejor."
+          zh: "里士满解放中心是推动政治组织工作的基地，致力于为我们共同的家园——这座城市实现社会与经济正义。我们努力确保在每次大型运动之间，坚定的活动家们能够持续为更美好的世界而奋斗。"
         Support:
           en: "Support The Liberation Center!"
-          es: "INSERTHERE"
-          zh: "INSERTHERE"
+          es: "¡Apoya al Centro de Liberación!"
+          zh: "支持解放中心！"
         Instagram:
           en: "Follow Us On Instagram"
-          es: "INSERTHERE"
-          zh: "INSERTHERE"
-        Telegram:
-          en: "Receive Alerts on Telegram"
-          es: "Recibe Alertas en Telegram"
-          zh: "在 Telegram 接收提醒"
-        WhatsApp:
-          en: "Receive Alerts on WhatsApp"
-          es: "Recibe Alertas en WhatsApp"
-          zh: "在 WhatsApp 接收提醒"
+          es: "Síguenos en Instagram"
+          zh: "在Instagram上关注我们"
         RAADPetition:
           en: "Sign The Artists Against Deportation Statement"
           es: "Firma La Declaración De Artistas Contra La Deportación"
@@ -86,7 +78,7 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-solid fa-bullhorn"
+      icon: "fa-solid fa-hand-holding-dollar"
       text: "<span class='link-button-text-bold'>{{vars.I18n['Support']}}</span>"
       url: "https://rvaliberation.com/support"
       alt: "Report"
@@ -96,8 +88,8 @@ links:
       icon: "fa-brands fa-instagram"
       text: "{{vars.I18n['Instagram']}}"
       url: "https://www.instagram.com/rvaliberationcenter/"
-      alt: "Report"
-      title: "Report"
+      alt: "Instagram"
+      title: "Instagram"
       target: "_blank"
 #  - link:
 #      icon: "fa-brands fa-square-whatsapp"
@@ -120,6 +112,13 @@ links:
       alt: "RAAD Statement"
       title: "RAAD Statement"
       target: "_blank"
+  - link:
+      icon: "fa-solid fa-bullhorn"
+      text: "{{vars.I18n['Report']}}"
+      url: "https://RVADefensa.com/report"
+      alt: "Report"
+      title: "Report"
+      target: "_blank"
 
 
 # List of social media links
@@ -140,4 +139,4 @@ footer: >
   {{ vars.I18n['script'] }}
 
 copyright: >
-  Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a> 🦋
+  📍 Located at 409 Brook Rd, Richmond, VA | Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a> 🦋
