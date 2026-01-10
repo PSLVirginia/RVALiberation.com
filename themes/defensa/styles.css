@@ -11,9 +11,9 @@
 }
 
 :root { /* global scope */
-  --color-primary: rgb(196, 9, 5);
-  --color-primary-alt: #6b1b00;
-  --color-secondary: #f4d9b1;
+  --color-primary: #000000;
+  --color-primary-alt: rgb(196, 9, 5);
+  --color-secondary: #ffffff;
   --color-black: #000000;
   --color-white: #ffffff;
 }
@@ -45,10 +45,12 @@ a {
 }
 
 .profile-pic {
-  width: 80%;
+  width: 50%;
   max-width: 360px;
   object-fit: contain;
   margin-bottom: 15px;
+  border-radius: 50%;
+  border: 2px solid black;
 }
 
 .name {

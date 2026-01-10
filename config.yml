@@ -33,9 +33,9 @@ plugins:
           es: "@richmonddefensa"
           zh: "@richmonddefensa"
         Tagline:
-          en: "Richmond Defensa is a community defense network dedicated to protecting and upholding our immigrant brothers, sisters, and siblings in the Richmond, VA metro area"
-          es: "Richmond Defensa es una red de defensa comunitaria dedicada a proteger y apoyar a nuestros hermanos, hermanas y hermanes inmigrantes en el área metropolitana de Richmond, Virginia"
-          zh: "里士满地分撒是一个社区防卫网络，致力于保护并维护我们在里士满都会区的移民家人的权益"
+          en: "📍 409 Brook Rd, Richmond, VA"
+          es: "📍 409 Brook Rd, Richmond, VA"
+          zh: "📍 409 Brook Rd, Richmond, VA"
         Instagram:
           en: "Richmond Defensa's Instagram"
           es: "Instagram de Richmond Defensa"
@@ -61,10 +61,10 @@ plugins:
 #google_analytics_id:
 
 # HTML Title
-title: "Richmond Defensa"
+title: "Richmond Liberation Center Linkyee"
 
 # Avatar image path
-avatar: "./images/RVADefensa.svg"
+avatar: "./images/Logo.svg"
 
 # Name section text
 #name: "@richmonddefensa"
@@ -117,25 +117,13 @@ links:
 # url: The URL of the social media link
 # alt: Alternative text for accessibility
 # target: _blank opens in a new tab, _self opens in the same frame
-socials:
-  - social:
-      icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/richmonddefensa/"
-      title: "Instagram"
-      alt: "Instagram"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-square-whatsapp"
-      url: "https://chat.whatsapp.com/J2JcvDaEDJ22ixOQOjUN3o/"
-      title: "WhatsApp"
-      alt: "WhatsApp"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-telegram"
-      url: "https://t.me/rvadefensa/"
-      title: "Telegram"
-      alt: "Telegram"
-      target: "_blank"
+#socials:
+#  - social:
+#      icon: "fa-brands fa-instagram"
+#      url: "https://www.instagram.com/rvaliberationcenter/"
+#      title: "Instagram"
+#      alt: "Instagram"
+#      target: "_blank"
 
 footer: >
   {{ vars.I18n['script'] }}
