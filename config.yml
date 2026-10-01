@@ -52,6 +52,10 @@ plugins:
           en: "Report Suspicious Activity"
           es: "Denunciar Actividad Sospechosa"
           zh: "举报可疑活动"
+        MayDay:
+          en: "Endorse The May 1st General Strike!"
+          es: "¡Apoya la Huelga General del 1º de Mayo!"
+          zh: "支持五一总罢工！"
 
 # Google Analytics tracking id
 #google_analytics_id:
@@ -80,42 +84,49 @@ links:
   - link:
       icon: "fa-solid fa-hand-holding-dollar"
       text: "<span class='link-button-text-bold'>{{vars.I18n['Support']}}</span>"
-      url: "https://rvaliberation.com/support"
+      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
       alt: "Report"
       title: "Report"
       target: "_blank"
   - link:
+      icon: "fa-solid fa-m"
+      text: "{{vars.I18n['MayDay']}}"
+      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
+      alt: "MayDay Endorsement Form"
+      title: "MayDay Endorsement Form"
+      target: "_blank"
+  - link:
       icon: "fa-brands fa-instagram"
       text: "{{vars.I18n['Instagram']}}"
-      url: "https://www.instagram.com/rvaliberationcenter/"
+      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
       alt: "Instagram"
       title: "Instagram"
       target: "_blank"
 #  - link:
 #      icon: "fa-brands fa-square-whatsapp"
 #      text: "{{vars.I18n['WhatsApp']}}"
-#      url: "https://chat.whatsapp.com/J2JcvDaEDJ22ixOQOjUN3o"
+#      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
 #      alt: "Whatsapp"
 #      title: "Whatsapp"
 #      target: "_blank"
 #  - link:
 #      icon: "fa-brands fa-telegram"
 #      text: "{{vars.I18n['Telegram']}}"
-#      url: "https://t.me/rvadefensa"
+#      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
 #      alt: "Telegram"
 #      title: "Telegram"
 #      target: "_blank"
   - link:
       icon: "fa-solid fa-palette"
       text: "{{vars.I18n['RAADPetition']}}"
-      url: "https://RVADefensa.com/RAAD"
+      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
       alt: "RAAD Statement"
       title: "RAAD Statement"
       target: "_blank"
   - link:
       icon: "fa-solid fa-bullhorn"
       text: "{{vars.I18n['Report']}}"
-      url: "https://RVADefensa.com/report"
+      url: "https://theyeisblind.substack.com/p/the-eyes-is-blind-that-will-not-see"
       alt: "Report"
       title: "Report"
       target: "_blank"
